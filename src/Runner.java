@@ -5,14 +5,16 @@ public class Runner
     public static void main(String[] args)
     {
 
-        String[] strings = {"hello!", "!!!whoa", "sad", "Adam!", "What! No way", "Why?!"};
-        int numExclamations = ArrayAlgorithms.endsInExclamations(strings);
-        System.out.println(numExclamations);
+
+        int[] nums = {4, 7, 7, 3, 2, 2, 4, 4, 4, 6, 4, 6, 6};
+        int numDoubles = ArrayAlgorithms.countConsecutiveDoubles(nums);
+        System.out.println(numDoubles);
 
         // original array NOT modified
-        System.out.println(Arrays.toString(strings));
-
-
+        System.out.println(Arrays.toString(nums));
     }
 
+
 }
+
+

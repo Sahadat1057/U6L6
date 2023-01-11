@@ -129,6 +129,30 @@ public class ArrayAlgorithms {
         return counter;
     }
 
+
+    /** Returns the number of elements in the numList array that have the same
+     *  value as the element immediately adjacent to the right in the array.
+     *  (BE CAREFUL not to go out of bounds!)
+     *  For example, given the array {4, 7, 7, 3, 2, 2, 4, 4, 4, 6, 4, 6, 6}
+     *  this method would return 5, since there are five numbers in the array that
+     *  are equal to the number immediately to the right (shown below in blue):
+     *                    {4, 7, 7, 3, 2, 2, 4, 4, 4, 6, 4, 6, 6}
+     *
+     *  Does NOT mutate (modify) numList
+     *  PRECONDITION: numList.length > 0
+     *
+     *  @param numList  original array of numbers; does not get modified
+     *  @return  number of elements in numList that are equal to the element
+     *           adjacent to the right of the element in the array
+     */
+    public static int countConsecutiveDoubles(int[] numList)
+    {
+        int counter = 0;
+        for ()
+        if ()
+    }
+
+
 }
 
 
