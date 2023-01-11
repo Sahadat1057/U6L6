@@ -148,9 +148,15 @@ public class ArrayAlgorithms {
     public static int countConsecutiveDoubles(int[] numList)
     {
         int counter = 0;
-        for ()
-        if ()
+        for (int i = 0; i < numList.length - 1 ; i++) {
+            if (numList[i] == numList[i+1] ) {
+                counter++;
+            }
+        }
+        return counter;
     }
+
+
 
 
 }
